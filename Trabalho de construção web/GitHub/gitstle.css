@@ -1,0 +1,83 @@
+@charset "UTC-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playwrite+RO:wght@100..400&family=Schibsted+Grotesk:ital,wght@0,400..900;1,400..900&display=swap');
+
+body {  
+  background-image: linear-gradient(#d8daeb);
+}
+h1 { 
+  font-family: "Rubik";
+color:#232754;
+text-align: center;
+;}
+
+p {
+  font-family: "Schibsted Grotesk", sans-serif;
+  color: #232754;
+  margin: 2%;
+  font-size: 30px;
+}
+
+h2{ font-family: "Rubik";
+  color:#232754;
+  text-align: center;
+  margin: 5px;
+  background-color:#009adc ;
+  box-shadow:2px 2px 5px 0 rgba(0, 0, 0, 0.5);
+  padding: 6px;
+font-size: 30px;}
+
+main {
+    box-shadow: inset;
+    border: blue;
+background-color: antiquewhite;
+
+}
+ul {
+    font-family: "Schibsted Grotesk", sans-serif;
+    color: #232754;}
+        
+    li {list-style-type: none;
+        font-family: "Schibsted Grotesk", sans-serif;
+            color: #232754;}
+
+            h3{
+              font-family: "Schibsted Grotesk", sans-serif;
+          color:#232754;    } 
+ ol li {
+    font-weight: bold;
+ }
+
+ .navbar {
+    list-style: none;
+    padding: 0;
+    margin: 0; 
+    background-color:#232754; 
+  }
+
+  .navbar-item {
+    display: inline-block; 
+    padding: 15px 20px; 
+  }
+
+  .navbar-item a {
+    color: white;
+    text-decoration: none; 
+  }
+    table { 
+        border: 1px solid #000;
+     display: flex;
+     flex-shrink: 0;
+     display: inline-block;
+    }
+    a { font-family: "Rubik";
+      color:#232754;}
+
+      .centralizar {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 500px;
+        padding: 50px;
+      
+      }
