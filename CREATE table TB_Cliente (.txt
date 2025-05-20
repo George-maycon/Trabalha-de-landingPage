@@ -1,0 +1,22 @@
+CREATE table TB_Cliente (
+endereço VARCHAR  (50) not null,
+  telefone numeric (11) not null,
+Nome_responsavel varchar (50) not null,
+  ramo_ativ Varchar (200) not null,
+  razão_Social varchar (50) not null,
+  CNPJ varchar (14) not null,
+  nome_fantasia varchar (200) not null,
+  Id_cliente serial PRIMARY key
+  );
+  
+  create TABLE TB_Pedido (
+  
+  Id_Pedido serial PRIMARY KEY,
+    data_pedido VArchar (10) not NULL,
+   forma_pagamento VARCHAR (50) not null,
+    Data_entrega_prevista varchar (10) not NULL,
+   Data_entrega_Efetivada varchar (10) not NULL,
+    Id_cliente serial,
+    CONSTRAINT fk_cliente FOREIGN key (Id_cliente)
+    REFERENCES tb_cliente(id_cliente)
+ );
